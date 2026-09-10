@@ -1,0 +1,19 @@
+services:
+  database:
+    image: pgvector/pgvector:0.8.6-pg18
+    environment:
+      POSTGRES_DB: anthropic_corpus
+      POSTGRES_USER: anthropic
+      POSTGRES_PASSWORD: anthropic
+    ports:
+      - "55432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U anthropic -d anthropic_corpus"]
+      interval: 2s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:
