@@ -17,3 +17,5 @@ backend/data/
 *.db
 *.sqlite
 *.sqlite3
+
+agent_handoff/
