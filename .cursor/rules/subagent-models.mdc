@@ -1,0 +1,13 @@
+---
+description: Pin every Cursor Task sub-agent to Composer 2.5 Fast and one-level delegation.
+alwaysApply: true
+---
+
+# Cursor Sub-agent Harness Pins
+
+For every `Task` call:
+
+- Set `model` to `composer-2.5-fast`.
+- Set `subagent_type` to `generalPurpose`.
+- Never use `inherit`.
+- Include this sentence in the prompt: `Do not spawn further agents. If you attempt to spawn one, stop and return exactly: depth limit reached`.

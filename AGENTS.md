@@ -38,3 +38,12 @@ Read [`docs/TECH_STACK.md`](docs/TECH_STACK.md) for the project's technology cho
 ### Commit message
 
 Use [`.agent/skills/commit-message/SKILL.md`](.agent/skills/commit-message/SKILL.md) when writing commit messages.
+
+# Agent Workflow
+
+Follow [docs/agents/workflow.md](docs/agents/workflow.md).
+
+Harness pins:
+
+- Cursor: [.cursor/rules/subagent-models.mdc](.cursor/rules/subagent-models.mdc)
+- Codex: [.codex/config.toml](.codex/config.toml), [.codex/agents/review-standards.toml](.codex/agents/review-standards.toml), and [.codex/agents/review-spec.toml](.codex/agents/review-spec.toml)
