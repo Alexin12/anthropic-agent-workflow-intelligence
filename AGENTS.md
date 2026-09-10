@@ -14,7 +14,7 @@ This is a single-context repo. Read `CONTEXT.md` and relevant ADRs under `docs/a
 
 ### Git workflow
 
-Follow [`doc/Git Workflow.md`](doc/Git%20Workflow.md) for all issue branches, commits, pull requests, merges, and pushes.
+Follow [`docs/Git Workflow.md`](docs/Git%20Workflow.md) for all issue branches, commits, pull requests, merges, and pushes.
 
 ### Tech stack
 
