@@ -1,5 +1,7 @@
 ## Agent skills
 
+Before starting work, read [docs/agents/lessons-learned.md](docs/agents/lessons-learned.md) and apply any relevant project lessons. Use [.agents/skills/agent-lessons/SKILL.md](.agents/skills/agent-lessons/SKILL.md) when recording confirmed workflow mistakes; keep one canonical entry per root cause.
+
 ### Issue tracker
 
 Issues and PRDs for this repo live in GitHub Issues; use the `gh` CLI. See `docs/agents/issue-tracker.md`.
